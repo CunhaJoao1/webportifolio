@@ -7,6 +7,7 @@
 }
 body{
     background: #2C394B;
+    width: 100%;
 }
 a{
     text-decoration: none;
@@ -51,7 +52,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     height: 4rem;
-
+    
     
 }
 nav ul li a{
@@ -174,7 +175,10 @@ nav .icon-menu{
 #works{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: #334756;
+    
 }
 .content{
     display: flex;
@@ -189,7 +193,7 @@ nav .icon-menu{
 .card{
     background: #2C394B;
     height: 16.62rem;
-    width: 28rem;
+    width: 23rem;
     padding: 1rem;
     margin-bottom: 1.81rem ;
 }
@@ -211,3 +215,7 @@ nav .icon-menu{
 .see-more a{
     color: #FF4C29;
 }
+
+
+
+
